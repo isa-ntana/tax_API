@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: taxes_management
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  server:
+    servlet:
+      context-path: /api/taxes
